@@ -7,7 +7,7 @@ function We() {
     return (
         <section>
             <div className="container mx-auto mt-20">
-                <div className="grid grid-cols-1 lg:grid-cols-2 py-36">
+                <div className="grid grid-cols-1 lg:grid-cols-2 lg:py-36">
                     <div className="flex flex-col gap-8 p-4">
                         <div className="flex flex-col gap-1">
                             <h2 className='text-3xl font-bold text-cyan-700'>CSI AFRICA</h2>
