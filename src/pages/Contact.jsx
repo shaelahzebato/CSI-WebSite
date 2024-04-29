@@ -6,9 +6,9 @@ function Contact() {
     //  transition duration-500 ease-in-out hover:text-cyan-800 transform hover:-translate-y-1 shadow-[0_0_12px_rgba(0,0,0,0.2)]
 
     return (
-        <section className="contact py-20" id='contact'>
+        <section className="contact py-10 lg:py-20" id='contact'>
             <div className="container mx-auto">
-                <div className="w-full lg:w-4/6 mx-auto flex flex-col gap-4 mt-28 p-10 bg-white rounded-md shadow-[0_0_12px_rgba(0,0,0,0.2)]">
+                <div className="w-full lg:w-4/6 mx-auto flex flex-col gap-4 mt-20 lg:mt-28 p-10 bg-white rounded-md shadow-[0_0_12px_rgba(0,0,0,0.2)]">
                     <h2 className="text-2xl lg:text-4xl text-center">Contactez-nous</h2>
                     <div className="w-full h-[2px] bg-cyan-700"></div>
                     <form className="grid grid-cols-[1fr] lg:grid-cols-[1fr_1fr] gap-10">

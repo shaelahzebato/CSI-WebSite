@@ -4,14 +4,14 @@ import React from 'react'
 
 function BuyingProcess() {
     return (
-        <section className='buying-process py-10'>
+        <section className='buying-process'>
             <div className="container mx-auto">
                 <div className="flex flex-col px-4 lg:px-0">
-                    <div className="w-full lg:w-4/6 mx-auto flex flex-col items-center gap-4 py-10">
+                    <div className="w-full lg:w-4/6 mx-auto flex flex-col items-center gap-4">
                         <h2 className='text-3xl text-center lg:text-5xl'>Comment ça fonctionne ?</h2>
                         <p className='text-center text-base lg:text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi harum voluptatem qui non laudantium sunt delectus, possimus illo sapiente voluptates id exercitationem nulla eius suscipit modi magni! Voluptate, excepturi soluta?</p>
                     </div>
-                    <div className="grid grid-cols-[1fr] lg:grid-cols-3 gap-10 items-center py-10">
+                    <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 items-center py-10">
                         <div className="flex flex-col items-center gap-2">
                             <div className='text-6xl text-red-400'>
                                 <FontAwesomeIcon icon={faNewspaper} className=''/>
